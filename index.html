@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Gogul Mahadevan - Full Stack Developer & CSE Student" />
+  <title>Gogul Mahadevan | Full Stack Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <!-- Devicons for real skill logos -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">
+      <div class="logo-circle">
+        <span>GM</span>
+      </div>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-bg-text" aria-hidden="true">GOGUL</div>
+    <div class="hero-content">
+      <div class="hero-left">
+        <div class="badge-row">
+          <span class="badge">✅ Available for Work</span>
+          <span class="dot-pulse"></span>
+        </div>
+        <h1 class="hero-name">
+          <span class="line-top">GOGUL</span>
+          <span class="line-bottom">MAHADEVAN</span>
+        </h1>
+        <div class="hero-role">
+          <span class="role-bar"></span>
+          <span id="typing"></span><span class="cursor">_</span>
+        </div>
+        <p class="hero-desc">
+          Full Stack Developer &amp; CSE Student building modern,
+          scalable web applications with clean code and sharp design.
+        </p>
+        <div class="hero-btns">
+          <a href="#contact" class="btn btn-primary">🚀 Let's Connect</a>
+          <a href="#projects" class="btn btn-ghost">See My Work ↓</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><span class="stat-num">18+</span><span class="stat-label">Skills</span></div>
+          <div class="stat-div"></div>
+          <div class="stat"><span class="stat-num">3</span><span class="stat-label">Projects</span></div>
+          <div class="stat-div"></div>
+          <div class="stat"><span class="stat-num">3rd</span><span class="stat-label">Year CSE</span></div>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="photo-wrap">
+          <div class="photo-accent-ring"></div>
+          <div class="photo-frame">
+            <img src="assets/profile.jpeg" alt="Gogul Mahadevan" />
+          </div>
+          <div class="photo-tag mono">💻 Full Stack Dev</div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span class="mono">scroll</span>
+      <span class="scroll-line"></span>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section reveal">
+    <div class="section-inner">
+      <div class="section-head">
+        <span class="mono section-num">01</span>
+        <h2 class="section-title">About Me</h2>
+      </div>
+
+      <div class="about-hero-card">
+        <div class="about-avatar">
+          <img src="assets/profile.jpeg" alt="Gogul Mahadevan" />
+          <div class="avatar-glow"></div>
+        </div>
+        <div class="about-intro">
+          <h3 class="about-name">👋 Gogul Mahadevan</h3>
+          <p class="about-tagline">🎯 Full Stack Developer &amp; CSE Student</p>
+          <p class="about-bio">
+            I'm a passionate developer from Chidambaram, Tamil Nadu 🌏, currently pursuing
+            <strong>B.E Computer Science Engineering (3rd Year)</strong>. I love turning
+            ideas into beautiful, functional web apps — from pixel-perfect UIs to solid backends. 💡
+          </p>
+          <p class="about-bio">
+            Right now I'm levelling up as a <strong>Full Stack Intern @ Future Interns</strong> 🚀,
+            working with real-world technologies and shipping real products every day.
+          </p>
+          <div class="about-badges">
+            <span class="abadge">🎓 CSE Student</span>
+            <span class="abadge">💼 Future Interns</span>
+            <span class="abadge">📍 Tamil Nadu</span>
+            <span class="abadge">⚡ Full Stack Dev</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-cards-row">
+        <div class="acard">
+          <div class="acard-icon">🎓</div>
+          <div class="acard-body">
+            <strong>Education</strong>
+            <p>B.E Computer Science Engineering</p>
+            <span>3rd Year · 5th Semester</span>
+          </div>
+        </div>
+        <div class="acard">
+          <div class="acard-icon">💼</div>
+          <div class="acard-body">
+            <strong>Internship</strong>
+            <p>Future Interns</p>
+            <span>Full Stack Developer Intern</span>
+          </div>
+        </div>
+        <div class="acard">
+          <div class="acard-icon">📍</div>
+          <div class="acard-body">
+            <strong>Location</strong>
+            <p>Chidambaram, Tamil Nadu</p>
+            <span>India 🇮🇳</span>
+          </div>
+        </div>
+        <div class="acard">
+          <div class="acard-icon">🎯</div>
+          <div class="acard-body">
+            <strong>Goal</strong>
+            <p>Full Stack Developer</p>
+            <span>Shipping real products</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section section-dark reveal">
+    <div class="section-inner">
+      <div class="section-head">
+        <span class="mono section-num">02</span>
+        <h2 class="section-title">Skills</h2>
+      </div>
+
+      <div class="skills-categories">
+
+        <div class="skill-group">
+          <h4 class="skill-group-title">⚡ Languages</h4>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <i class="devicon-c-plain colored"></i>
+              <span>C</span>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-cplusplus-plain colored"></i>
+              <span>C++</span>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-java-plain colored"></i>
+              <span>Java</span>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-javascript-plain colored"></i>
+              <span>JavaScript</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h4 class="skill-group-title">🎨 Frontend</h4>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <i class="devicon-html5-plain colored"></i>
+              <span>HTML5</span>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-css3-plain colored"></i>
+              <span>CSS3</span>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-react-original colored"></i>
+              <span>React</span>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-bootstrap-plain colored"></i>
+              <span>Bootstrap</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h4 class="skill-group-title">🛠️ Backend &amp; DB</h4>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <i class="devicon-nodejs-plain colored"></i>
+              <span>Node.js</span>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-express-original"></i>
+              <span>Express.js</span>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-mongodb-plain colored"></i>
+              <span>MongoDB</span>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-mysql-plain colored"></i>
+              <span>MySQL</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h4 class="skill-group-title">🔧 Tools &amp; Concepts</h4>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <i class="devicon-git-plain colored"></i>
+              <span>Git</span>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-github-original"></i>
+              <span>GitHub</span>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-vscode-plain colored"></i>
+              <span>VS Code</span>
+            </div>
+            <div class="skill-card">
+              <div class="concept-icon">📐</div>
+              <span>DSA &amp; DBMS</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section reveal">
+    <div class="section-inner">
+      <div class="section-head">
+        <span class="mono section-num">03</span>
+        <h2 class="section-title">Projects</h2>
+      </div>
+      <div class="project-grid">
+
+        <div class="project-card" data-delay="0">
+          <div class="project-card-glow"></div>
+          <div class="project-meta">
+            <span class="project-emoji">🌐</span>
+            <a href="https://github.com/GOGULMAHADEVAN" target="_blank" class="project-link">↗</a>
+          </div>
+          <h3>Portfolio Website</h3>
+          <p>Personal developer portfolio showcasing skills, projects and profile. Fully responsive with dark theme and slick animations.</p>
+          <div class="project-bar"><div class="project-bar-fill" style="width:85%"></div></div>
+          <div class="tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+        </div>
+
+        <div class="project-card project-featured" data-delay="150">
+          <div class="project-card-glow"></div>
+          <div class="featured-badge">⭐ Featured</div>
+          <div class="project-meta">
+            <span class="project-emoji">✅</span>
+            <a href="https://github.com/GOGULMAHADEVAN" target="_blank" class="project-link">↗</a>
+          </div>
+          <h3>Task Manager App</h3>
+          <p>Full-featured task management app to organize daily work, set priorities and track productivity with a beautiful clean UI.</p>
+          <div class="project-bar"><div class="project-bar-fill" style="width:75%"></div></div>
+          <div class="tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-delay="300">
+          <div class="project-card-glow"></div>
+          <div class="project-meta">
+            <span class="project-emoji">🌤️</span>
+            <a href="https://github.com/GOGULMAHADEVAN" target="_blank" class="project-link">↗</a>
+          </div>
+          <h3>Weather App</h3>
+          <p>Real-time weather application integrating OpenWeather API to display live weather conditions for any city worldwide.</p>
+          <div class="project-bar"><div class="project-bar-fill" style="width:70%"></div></div>
+          <div class="tags">
+            <span>JavaScript</span><span>REST API</span><span>CSS</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section section-dark reveal">
+    <div class="section-inner">
+      <div class="section-head">
+        <span class="mono section-num">04</span>
+        <h2 class="section-title">Contact</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p class="contact-lead">
+            💬 Open to internships, collaborations and real-world projects.<br>
+            Drop me a message — I reply fast! ⚡
+          </p>
+          <div class="contact-links">
+            <a href="https://github.com/GOGULMAHADEVAN" target="_blank" class="contact-link-row">
+              <span class="cl-icon"><i class="devicon-github-original"></i></span>
+              <div class="cl-text">
+                <span class="cl-label">GitHub</span>
+                <span class="cl-val">github.com/GOGULMAHADEVAN</span>
+              </div>
+              <span class="cl-arrow">↗</span>
+            </a>
+            <a href="https://www.linkedin.com/in/gogulmahadevan" target="_blank" class="contact-link-row">
+              <span class="cl-icon"><i class="devicon-linkedin-plain colored"></i></span>
+              <div class="cl-text">
+                <span class="cl-label">LinkedIn</span>
+                <span class="cl-val">linkedin.com/in/gogulmahadevan</span>
+              </div>
+              <span class="cl-arrow">↗</span>
+            </a>
+            <a href="mailto:youremail@gmail.com" class="contact-link-row">
+              <span class="cl-icon email-icon">✉️</span>
+              <div class="cl-text">
+                <span class="cl-label">Gmail</span>
+                <span class="cl-val">gogulmahadevan1124@gmail.com</span>
+              </div>
+              <span class="cl-arrow">↗</span>
+            </a>
+            <div class="contact-link-row plain">
+              <span class="cl-icon phone-icon">📞</span>
+              <div class="cl-text">
+                <span class="cl-label">Phone</span>
+                <span class="cl-val">+91 8300825655</span>
+              </div>
+            </div>
+            <div class="contact-link-row plain">
+              <span class="cl-icon">📍</span>
+              <div class="cl-text">
+                <span class="cl-label">Location</span>
+                <span class="cl-val">Chidambaram, Tamil Nadu, India 🇮🇳</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" onsubmit="handleSubmit(event)">
+          <div class="form-title">📨 Send a Message</div>
+          <div class="field">
+            <label>👤 Name</label>
+            <input type="text" placeholder="Your name" required />
+          </div>
+          <div class="field">
+            <label>✉️ Email</label>
+            <input type="email" placeholder="your@email.com" required />
+          </div>
+          <div class="field">
+            <label>💬 Message</label>
+            <textarea rows="5" placeholder="Tell me about your project or opportunity..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary full-w">🚀 Send Message</button>
+          <p class="form-msg" id="form-msg"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo-circle">GM</div>
+      <p>Designed &amp; built with ❤️ by <strong>Gogul Mahadevan</strong></p>
+      <p class="footer-sub">Full Stack Developer Intern @ Future Interns 🚀</p>
+      <div class="footer-links">
+        <a href="https://github.com/GOGULMAHADEVAN" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/gogulmahadevan" target="_blank">LinkedIn</a>
+        <a href="mailto:gogulmahadevan1124@gmail.com">Gmail</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+ <script src="voice-assistant.js"></script>
+</body>
+</html>
