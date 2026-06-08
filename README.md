@@ -9,12 +9,9 @@ Full Stack Development Internship Repository
 
 ## Tasks
 - Task 1
-- Task 2
-- Task 3
 
 ## Technologies
 - HTML
 - CSS
 - JavaScript
-- React
-- Node.js
+
