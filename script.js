@@ -42,8 +42,10 @@ function typeEffect() {
 // ===== SCROLL REVEAL =====
 function revealOnScroll() {
   const reveals = document.querySelectorAll(".reveal");
+
   reveals.forEach(function(el) {
     const rect = el.getBoundingClientRect();
+
     if (rect.top < window.innerHeight - 80) {
       el.classList.add("visible");
     }
@@ -53,6 +55,7 @@ function revealOnScroll() {
 // ===== NAVBAR SCROLL =====
 function handleNavbar() {
   const navbar = document.getElementById("navbar");
+
   if (!navbar) return;
 
   if (window.scrollY > 50) {
@@ -78,16 +81,6 @@ function setupHamburger() {
       navLinks.classList.remove("open");
     });
   });
-}
-
-// ===== CONTACT FORM =====
-function handleSubmit(e) {
-  e.preventDefault();
-  var msg = document.getElementById("form-msg");
-  if (msg) {
-    msg.textContent = "✅ Message sent! I'll get back to you soon.";
-  }
-  e.target.reset();
 }
 
 // ===== INIT =====
