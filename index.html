@@ -362,8 +362,46 @@
             </div>
           </div>
         </div>
+<form class="contact-form"
+      action="https://api.web3forms.com/submit"
+      method="POST">
 
-        <form class="contact-form" onsubmit="handleSubmit(event)">
+  <input type="hidden"
+         name="access_key"
+         value="2e4b7ea0-e807-42f3-9b3b-7cadafa7fa07">
+
+  <div class="form-title">📨 Send a Message</div>
+
+  <div class="field">
+    <label>👤 Name</label>
+    <input type="text"
+           name="name"
+           placeholder="Your name"
+           required>
+  </div>
+
+  <div class="field">
+    <label>✉️ Email</label>
+    <input type="email"
+           name="email"
+           placeholder="your@email.com"
+           required>
+  </div>
+
+  <div class="field">
+    <label>💬 Message</label>
+    <textarea name="message"
+              rows="5"
+              placeholder="Tell me about your project or opportunity..."
+              required></textarea>
+  </div>
+
+  <button type="submit"
+          class="btn btn-primary full-w">
+      🚀 Send Message
+  </button>
+
+</form>
           <div class="form-title">📨 Send a Message</div>
           <div class="field">
             <label>👤 Name</label>
